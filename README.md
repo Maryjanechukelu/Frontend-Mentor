@@ -38,7 +38,7 @@ If you'd like to contribute a new challenge or improve an existing one, we welco
 4. Commit your changes and push them to your fork.
 5. Submit a pull request to the main repository.
 
-Please make sure your contributions align with the [Frontend Mentor Contributor Guidelines](https://www.frontendmentor.io/contributor-guidelines).
+Please make sure your contributions align with the [Frontend Mentor Contributor Guidelines](https://medium.com/frontend-mentor/frontend-mentor-community-guidelines-44303cc38aa6).
 
 ## Feedback and Support
 
