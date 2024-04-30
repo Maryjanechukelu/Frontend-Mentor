@@ -14,7 +14,7 @@ In this repository, you'll find a series of folders, each representing a differe
 
 Here's a list of challenges currently available in this repository:
 
-1. Challenge 1: [Fylo data storage component](link-to-challenge) 
+1. Challenge 1: [Fylo data storage component](https://github.com/Maryjanechukelu/Frontend-Mentor/tree/main/fylo-data-storage-component) 
 
 
 ## Getting Started
