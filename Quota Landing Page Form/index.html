@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quota Form Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+
+<body class="bg-cover raleway m-0 p-0 box-border">
+    <div class=" bg-cover" style="background-image: url('img/roofing.jpg');">
+        <div class="bg-primary">
+            <div class="max-w-7xl mx-auto sm:mx-auto px-2 md:px-0 ">
+                <div class="flex justify-between items-center py-5 md:py-8">
+                    <h2 class="text-white text-2xl sm:text-right ">Roofing Services</h2>
+                    <p class="text-white mr-48 text-sm sm:text-left">Call Us Today 1-00-899-012</p>
+                </div>
+                <div class="mt-10 text-white">
+                    <div class="">
+                        <h1 class="text-5xl font-bold ">Realiable And <br> Dedicated Roofing <br> Contractor</h1>
+                        <p class="mt-10 font-thin ">Offering unparallel services, on time, the first time. <br>Our
+                            dedicated
+                            and experienced roofing
+                            specialists <br> install new roofs and service existing ones.</p>
+                    </div>
+                </div>
+                <div class="mt-10 bg-amber-400 w-[450px] p-10 flex items-center  ">
+                    <div class="   ">
+                        <h1 class="text-white font-bold text-2xl items-center flex justify-center mb-5  ">Get Your Free
+                            Quote</h1>
+                        <form action="form.php" method="POST" class="max-w-md mx-auto grid grid-cols-2 gap-4  ">
+                            <div class="relative z-0 w-full mb-5 group">
+                                <input type="text" name="name" id="name"
+                                    class="block py-2.5 px-0 w-full text-sm text-gray-900 px-3 "
+                                    placeholder="First Name" required>
+                            </div>
+                            <div class="relative z-0 w-full mb-5 group">
+                                <input type="text" name="name" id="name"
+                                    class="block py-2.5 px-0 w-full text-sm text-gray-900 px-3 " placeholder="Last Name"
+                                    required>
+                            </div>
+                            <div class="relative z-0 w-full mb-5 group">
+                                <input type="email" name="email" id="email"
+                                    class="block py-2.5 px-0 w-full text-sm text-gray-900 px-3 " placeholder="Email"
+                                    required>
+                            </div>
+                            <div class="relative z-0 w-full mb-5 group">
+                                <input type="tel" name="phone" id="phone"
+                                    class="block py-2.5 px-0 w-full text-sm text-gray-900 px-3 " placeholder="Phone"
+                                    required>
+                            </div>
+                            <div class="relative z-0 w-full mb-5 group">
+                                <select name="message" id="message"
+                                    class="block py-2.5 px-0 w-[370px] text-sm text-gray-900 px-3 "
+                                    placeholder="First Name" required>
+                                    <option value="">Interested</option>
+                                    <option value="">Not Interested</option>
+                                </select>
+                            </div>
+
+                        </form>
+                        <button type="submit"
+                            class=" border p-2 w-[180px] bg-black text-white border-none mt-5 ">Submit</button>
+                    </div>
+                </div>
+            </div>
+            <div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer class="pt-20 bg-white w-full bg-cover">
+        <div class=" flex items-center justify-center">
+            <h1 class="text-black font-bold text-3xl"> We Provide</h1>
+        </div>
+        <div class="flex items-center justify-center">
+            <p class="text-black font-bold text-3xl">Quality Roofing Services</p>
+        </div>
+        <div class="flex items-center justify-between mt-5 p-5 text">
+            <p>&copy; 2021 Roofing Services. All Rights Reserved.</p>
+            <p>Call Us Today 1-00-899-012</p>
+        </div>
+    </footer>
+
+</body>
+<script src="https://cdn.tailwindcss.com"></script>
+<!-- <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script> -->
+<script>
+    tailwind.config = {
+        theme: {
+            extend: {
+                fontFamily: {
+                    'raleway': ['Raleway']
+                },
+                colors: {
+                    'primary': ' rgba(5, 3, 3, 0.726)',
+                    'secondary': {
+                        100: '#E2E2D5',
+                        200: '#888883'
+                    }
+                },
+                // screens: {
+                //     'sm': '576px',
+                //     // => @media (min-width: 576px) { ... }
+
+                //     'md': '960px',
+                //     // => @media (min-width: 960px) { ... }
+
+                //     'lg': '1440px',
+                //     // => @media (min-width: 1440px) { ... }
+                // },
+            }
+        }
+    }
+
+</script>
+<style type="text/tailwindcss">
+    @layer utilities {
+      
+      }
+    
+  </style>
+
+</html>
